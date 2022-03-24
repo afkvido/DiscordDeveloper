@@ -1,7 +1,14 @@
 # git ignore
 
+# Unwanted .idea files
+
 /.idea/shelf/
 /.idea/workspace.xml
 /.idea/misc.xml
 /.idea/runConfigurations.xml
 /.idea/modules.xml
+
+
+# Build folder
+/build/
+/out/
