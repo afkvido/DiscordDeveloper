@@ -8,12 +8,21 @@
 
 
 	"host_permissions": [
-		"http://*.discord.com/*",
-		"https://*.discord.com/*",
+		"http://canary.discord.com/*",
+		"https://canary.discord.com/*",
+		"http://canary.discordapp.com/*",
+		"https://canary.discordapp.com/*",
+
+		"http://ptb.discord.com/*",
+		"https://ptb.discord.com/*",
+		"http://ptb.discordapp.com/*",
+		"https://ptb.discordapp.com/*",
+
 		"http://discord.com/*",
 		"https://discord.com/*",
 		"http://discordapp.com/*",
 		"https://discordapp.com/*",
+
 		"http://raw.githubusercontent.com/*",
 		"https://raw.githubusercontent.com/*"
 	],
