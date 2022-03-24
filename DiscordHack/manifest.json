@@ -2,13 +2,19 @@
 	"name": "Discord Hacks",
 	"description": "Automatically enables the Discord staff menu, gives you all badges, gives you Nitro, and gives you server perks. Client side only.",
 
-	"version": "0.0.1",
+	"version": "0.0.1_beta_1",
 	"short_name": "DscH",
 	"author": "gemsvidø",
 
 
 	"host_permisisons": [
-		"*://*.discord.com/*",
+		"http://*.discord.com/*",
+		"https://*.discord.com/*",
+		"http://discord.com/*",
+		"https://discord.com/*",
+		"http://discordapp.com/*",
+		"https://discordapp.com/*",
+		"http://raw.githubusercontent.com/*",
 		"https://raw.githubusercontent.com/*"
 	],
 
