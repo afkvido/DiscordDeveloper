@@ -2,16 +2,13 @@
 
 
 
-# Turn off echoing commands
-@echo off
-
-
 
 # Function for waiting
 wait () {
  # Wait 0.1 Seconds to prevent any random bugs.
  sleep .1
 }
+
 
 
 # Wait to prevent any random bugs.
@@ -62,8 +59,8 @@ wait
 
 
 
-# Move up to the project root directory. Exit if unsuccessful.
-cd .. || exit
+# Move to the DiscordHack directory. Exit if unsuccessful.
+cd ../DiscordHack || exit
 
 
 
@@ -75,6 +72,11 @@ wait
 
 # Create the zip file DiscordHack.zip.
 echo "[build.sh] File DiscordHack.zip: Creating..."
+
+zip -r ../build/DiscordHack.zip *
+
+
+
 zip -r build/DiscordHack.zip DiscordHack
 echo "[build.sh] File DiscordHack.zip created."
 
@@ -88,7 +90,7 @@ wait
 
 
 # Repeat the done message 5 times.
-for i in {1..5}
+for i in {1..3}
 do
   echo "[build.sh] Done."
 done
