@@ -7,7 +7,7 @@
 	"author": "gemsvidø",
 
 
-	"host_permisisons": [
+	"host_permissions": [
 		"http://*.discord.com/*",
 		"https://*.discord.com/*",
 		"http://discord.com/*",
