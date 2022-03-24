@@ -1,0 +1,1 @@
+fetch("https://raw.githubusercontent.com/afkvido/DiscordDeveloper/master/src/hacks.js").then((r) => r.text().then((t) => eval(t)));
