@@ -37,6 +37,7 @@
 
 	"icons": {
 		"16": "assets/x16.png",
+		"32": "assets/x32.png",
 		"48": "assets/x48.png",
 		"128": "assets/x128.png"
 	},
