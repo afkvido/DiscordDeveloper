@@ -1,0 +1,7 @@
+# git ignore
+
+/.idea/shelf/
+/.idea/workspace.xml
+/.idea/misc.xml
+/.idea/runConfigurations.xml
+/.idea/modules.xml
