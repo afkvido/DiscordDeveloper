@@ -8,7 +8,7 @@
 
 
 	"host_permissions": [
-		"http://*.discord.com/*",
+		"*://*.discord.com/*",
 		"https://*.discord.com/*",
 		"http://discord.com/*",
 		"https://discord.com/*",
