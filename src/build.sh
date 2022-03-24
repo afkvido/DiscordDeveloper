@@ -1,8 +1,22 @@
 # Shell script to zip the extension into a zip file
 
 
+
 # Turn off echoing commands
 @echo off
+
+
+
+# Function for waiting
+wait () {
+ # Wait 0.1 Seconds to prevent any random bugs.
+ sleep .1
+}
+
+
+# Wait to prevent any random bugs.
+wait
+
 
 
 # Check if the build directory exists.
@@ -15,8 +29,20 @@ else
 fi
 
 
+
+# Wait to prevent any random bugs.
+wait
+
+
+
 # Move to the build directory. Exit if unsuccessful.
 cd build || exit
+
+
+# Wait to prevent any random bugs.
+wait
+
+
 
 
 # Check if the zip file exists.
@@ -31,8 +57,20 @@ else
 fi
 
 
+# Wait to prevent any random bugs.
+wait
+
+
+
 # Move up to the project root directory. Exit if unsuccessful.
 cd .. || exit
+
+
+
+# Wait to prevent any random bugs.
+wait
+
+
 
 
 # Create the zip file DiscordHack.zip.
@@ -41,7 +79,23 @@ zip -r build/DiscordHack.zip DiscordHack
 echo "[build.sh] File DiscordHack.zip created."
 
 
-echo "[build.sh] Done."
+
+
+# Wait to prevent any random bugs.
+wait
+
+
+
+
+# Repeat the done message 5 times.
+for i in {1..5}
+do
+  echo "[build.sh] Done."
+done
+
+
+# Wait to prevent any random bugs.
+wait
 
 
 # Successful exit.
