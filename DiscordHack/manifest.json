@@ -45,7 +45,22 @@
 
 	"content_scripts": [
 		{
-			"matches": ["https://discord.com/*", "https://ptb.discord.com/*", "https://canary.discord.com/*"],
+			"matches": [
+				"http://canary.discord.com/*",
+				"https://canary.discord.com/*",
+				"http://canary.discordapp.com/*",
+				"https://canary.discordapp.com/*",
+
+				"http://ptb.discord.com/*",
+				"https://ptb.discord.com/*",
+				"http://ptb.discordapp.com/*",
+				"https://ptb.discordapp.com/*",
+
+				"https://discord.com/*",
+				"http://discord.com/*",
+				"http://discordapp.com/*",
+				"https://discordapp.com/*",
+			],
 			"js": ["script.js"]
 		}
 	],
